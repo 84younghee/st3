@@ -1,0 +1,21 @@
+.psge-title{
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  background-color: #ccc;
+}
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100;400;700;900&display=swap');
+  
+body{
+  font-family: 'IBM Plex Sans KR', 'Noto Sans KR';
+  font-size: 14px;
+  line-height: 1.4;
+  font: "궁서체","맑은고딕" 14px/1.4;
+  color: #333;
+  -webkit-text-size-adjust: none;
+
+}
+
+a:link{color: #333;text-decoration: none;}
+a:visited{color: #333;text-decoration: none;}
+a:hover{color: #333;text-decoration: underline;}
