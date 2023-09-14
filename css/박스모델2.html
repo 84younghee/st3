@@ -4,31 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>박스모델</title>
+  <title>박스모델2 박스계산법</title>
   <link rel="stylesheet" href="asset/css/style1.css">
   <style>
-.box{
- /* border: #000;
-  border-style: solid;
-  border-width: 1px; */
-  border: #000 dotted 10px;
-  border-top-color: #f00;
-  background-color: #ccc;
- /* padding:상 우 하 좌;*/
-  padding:10px 20px 30px 40px;
-
-  /*margin: 상 우 하 좌;*/
- /*margin: 50px;*/
-  }
-  .box:nth-of-type(2){
-    padding: 28px 50px;
-    background-color: #f00;
-  }
-  .box:nth-of-type(3){
-    padding: 10px 20px 30px;
-    background-color: #00f;
-  }
-  *{padding: 0; margin: 0;}
+*{padding: 0; margin: 0;}
   h1{
     background-color: #f68; 
   }
@@ -36,9 +15,37 @@
     margin: 50px;
   }
   .box:nth-of-type(2){
+    background-color: #ccc;
     width: 300;
-    margin: 100px;
-    margin: 상하 auto;
+    padding: 30px 50px;
+    border: 1px solid#000;
+    /*margin: 100px;*/
+    /*margin: 상하 auto;*/
+    text-align: center;
+  }
+  ul{
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ccc;
+    text-align: center;
+    
+  } 
+  li{
+    background-color: #f68;
+    /*width: 100px;*/
+    /*width: 25%;*/
+    width: calc(25% -4px);
+    /*padding: 2rem;*/
+    display: inline-block;
+  }
+  .test{
+    background-color: #6f8;
+    border: 1px solid #000;
+    /*padding: 50px;
+    margin: 50px;*/
+    padding: 0 1rem;
+    margin:0 2rem;
+    width: 300px;
   }
   </style>
 
@@ -46,7 +53,7 @@
 <body>
   <h1 class="page-title">웹폰트 사용</h1>
   
- <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore sequi nobis adipisci. Totam recusandae porro quia vitae reprehenderit nihil, tempore excepturi ipsum, dicta harum explicabo placeat nesciunt nemo quibusdam quo?</div>
+ <div class="box">Lorem <span class="test">ipsum dolor</span> sit, <span class="test">amet consectetur</span> adipisicing elit. Tempore sequi nobis adipisci. Totam recusandae porro quia vitae reprehenderit nihil, tempore excepturi ipsum, dicta harum explicabo placeat nesciunt nemo quibusdam quo?</div>
  <div class="box">
  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vero dolores nemo ipsam nulla. Aperiam corporis, saepe, consequuntur quibusdam, mollitia dignissimos minima molestias in illo vero alias excepturi modi quaerat!</div>
  <ul>
