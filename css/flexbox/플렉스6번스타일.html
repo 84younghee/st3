@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>플렉스 6번스타일</title>
+  <style>
+    *{margin: 0;padding: 0;box-sizing: border-box;}
+    .wrap{
+      margin-top: 50px;
+    }
+    header{
+      background-color: dodgerblue;
+    }
+    .inner{
+      margin: 0 auto;
+      max-width: 700px;
+      background-color: #ccc;
+      position: relative;
+    }
+    .inner>div{background-color: rgba(0, 255, 255, 0.5);
+    border: 1px solid #000;}
+    .logo{
+      width: 200px;height: 80px;
+    }
+    .gnb{
+      max-width: 400px;
+      min-width: 500px;
+    }
+    .flex-container{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      /* justify-content: start; */
+    }
+    .flex-container>div{
+      /* flex-grow: 0; */
+      
+    }
+    .flex-container .top-menu{
+      position: absolute;
+      right: 0;top: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>플렉스 아이템의 수직방향 flex-direction:column</h1>
+  <div class="wrap">
+    <header>
+      <div class="inner flex-container">
+        <div class="logo">logo</div>
+        <div class="gnb">글로벌네비게이션바</div>
+        <div class="top-menu">유틸메뉴들</div>
+      </div>
+    </header>
+  </div>
+</body>
+</html>
