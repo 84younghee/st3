@@ -14,15 +14,15 @@
     <script>
       $(document).ready(function(){
         $('.btn_sitemap').click(function() {
-        $(this).attr("aria-expanded", true);
-        $('header').toggleClass('active');
-        $('body').toggleClass('hidden');
-	});
+          $(this).attr("aria-expanded", true);
+          $('header').toggleClass('active');
+          $('body').toggleClass('hidden');
+	      });
       }
       );
     </script>
     <!-- header -->
-    <header class="header_down">
+    <header class="header_down active">
       <div class="header_wrap flex-container">
         <h1 class="header_logo item">
           <a href="/"><span class="blind">네이버</span></a>
@@ -377,7 +377,7 @@
             <a href="/en" aria-selected="false">ENG</a>
           </div>
           <div class="sitemap_box">
-            <button class="btn_sitemap">
+            <button type="button" class="btn_sitemap">
               <span class="blind">사이트맵 열고 닫기</span>
               <span class="btn_line"></span>
               <span class="btn_line"></span>
@@ -386,7 +386,9 @@
           </div>
         </div>
       </div>
-
+      <div class="sitemap">
+        <div class="box"></div>
+      </div>
     </header>
     <!-- //header -->
     <!-- container -->
