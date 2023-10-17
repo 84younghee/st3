@@ -1,0 +1,47 @@
+<aside id="aside" module="layout_slidePackage" data-ez="contents-0d1g4i2-1">
+    <!--@css(/layout/basic/css/slideMenu.css)-->
+	<!--@js(/layout/basic/js/slide_menu.js)-->
+	<div class="navigation_member">
+		<div class="side_logo" module="Layout_LogoTop"><a href="/"><img src="{$logo}" alt="{$mall_name}"></a></div>
+
+		<div class="navigation_state" data-ez-group="top-util-menu" data-ez-role="list">
+			<a data-ez-item="join" module="Layout_statelogoff" href="/member/agreement.html">회원가입</a>
+			<a data-ez-item="login" module="Layout_statelogoff" href="/member/login.html">로그인</a>
+			<a data-ez-item="modify" module="Layout_stateLogon" href="/member/modify.html">내정보수정</a>
+			<a data-ez-item="logout" module="Layout_stateLogon" href="{$action_logout}">로그아웃</a>
+			<a data-ez-item="order" href="/myshop/order/list.html">주문조회</a>
+			<a data-ez-item="mypage" module="Layout_stateLogon" href="/myshop/index.html">마이페이지</a>
+			<a data-ez-item="recent" href="/product/recent_view_product.html">최근본상품</a>
+		</div><!-- //navigation_state -->
+	</div><!-- //navigation_member -->
+
+    <nav class="navigation-menu" role="navigation">
+		<div data-ez-module="menu-side/1"><div id="slideCateList" class="navigation-menu__category">
+  <ul id="slide_add_category"><li><a href="/category/NEW-/23/" class="view">NEW </a></li><li><a href="/category/BEST/26/" class="view">BEST</a></li><li><a href="/category/%ED%97%A4%EC%96%B4%EB%B0%B4%EB%93%9C/24/" class="view">헤어밴드</a><ul class="sub_cate01"><li><a href="/category/%EA%B3%B1%EC%B0%BD-%EB%B0%B4%EB%93%9C/30/" class="view">곱창 밴드</a></li></ul></li><li><a href="/category/%ED%97%A4%EC%96%B4%ED%95%80/44/" class="view">헤어핀</a><ul class="sub_cate01"><li><a href="/category/%EC%A7%91%EA%B2%8C%ED%95%80/46/" class="view">집게핀</a></li></ul></li><li><a href="/category/%ED%97%A4%EC%96%B4%EB%81%88/25/" class="view">헤어끈</a><ul class="sub_cate01"><li><a href="/category/%EA%B3%A0%ED%83%84%EC%84%B1-%ED%97%A4%EC%96%B4-%EB%B0%B4%EB%93%9C/47/" class="view">고탄성 헤어 밴드</a></li></ul></li><li><a href="/category/%ED%97%A4%EC%96%B4%EC%95%A1%EC%84%B8%EC%84%9C%EB%A6%AC%EC%86%8C%ED%92%88/27/" class="view">헤어액세서리소품</a><ul class="sub_cate01"><li><a href="/category/(%EC%A4%91%EB%B6%84%EB%A5%98)-Skirts/34/" class="view">(중분류) Skirts</a></li><li><a href="/category/(%EC%A4%91%EB%B6%84%EB%A5%98)-Pants/35/" class="view">(중분류) Pants</a></li></ul></li><li><a href="/category/%EC%9D%B4%EB%B2%A4%ED%8A%B8/42/" class="view">이벤트</a></li><li><a href="/category/%EC%84%B8%EC%9D%BC/45/" class="view">세일</a></li></ul>
+  </div></div><!-- //menu-side/1 -->
+
+		<div class="cboth slide_line"></div>
+
+        <div module="Layout_BoardInfo" class="navigation-menu__board">
+			<div class="title">고객센터<button type="button" class="icoCategory">펼침</button></div>
+            <ul class="categoryList">
+                <li><a href="{$link_board_list}">{$board_name}</a> {$board_adult_icon}</li>
+                <li><a href="{$link_board_list}">{$board_name}</a> {$board_adult_icon}</li>
+            </ul>
+        </div><!-- //navigation-menu__board -->
+
+		<div module="Layout_multishopList">
+			<button type="button" class="toggle">{$current_language} <i aria-hidden="true" class="icon icoArrowBottom"></i></button>
+			<ul module="Layout_multishopListitem">
+				<li class="{$selected_class}">
+					<a href="//{$shop_domain}/">{$locale_language}</a>
+				</li>
+				<li class="{$selected_class}">
+					<a href="//{$shop_domain}/">{$locale_language}</a>
+				</li>
+			</ul>
+		</div>
+    </nav>
+    <button type="button" class="btnClose"><i aria-hidden="true" class="icon icoClose"></i>닫기</button>
+</aside>
+<!--#ez="1/4"-->
