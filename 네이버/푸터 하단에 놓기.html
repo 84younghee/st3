@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+body{
+  background-color: #c00;
+}
+
+.wrap{
+  position: relative;
+  padding: 50px;
+  background-color: #c68;
+  /* 최소높이를 브라우저의 높이로 지정 */
+  min-height: 100%;
+}
+.wrap .test{
+  background-color: #ccc;
+  height: 300px;
+}
+.wrap .test .test-inner{
+  background-color: #11bba4;
+  height: 700px;
+  
+}
+.wrap footer{
+  background-color: bisque;
+  left: 0; bottom: 0;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="test">가나라다나마
+      <div class="test-inner"> dd</div>
+    </div>
+    <footer>
+      <div class="footer-inner"></div>가나라다라가나다라아다
+    </footer>
+  </div>
+</body>
+</html>
