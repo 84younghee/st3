@@ -59,7 +59,7 @@
   margin-left:auto;
   margin-right:auto;
 }
-.my-container.my-set .xans-product_listmain{
+.my-container.my-set .xans-product-listmain{
   flex:none;
   width:calc(50% - var(--my-main_product_list-gap));
   box-sizing: border-box;
