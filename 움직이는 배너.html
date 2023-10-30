@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 좌우로 벌어지는 CSS Animation</title>
+</head>
+<body>
+  <ul class="card_animation">
+    <li>pick</li>
+    <li>your</li>
+    <li>favorite</li>
+    
+    </ul>
+   <style>
+    .card_animation { display: flex;}
+    .card_animation li { flex:1; height: 100vh; text-align:center; line-height: 100vh; font-size: 60px;
+    transition:all .5s; background:no-repeat center / cover; }
+    .card_animation li:hover { flex:2; font-size: 70px; color:#fff; text-shadow: 0 0 5px rgba(214, 210, 207, 0.5);}
+    .card_animation li:not(:hover) { flex:0.7;}
+    .card_animation li:nth-child(1) { background-image:url(./까페24/밍트헤어밴드_0007_主图Main-01.png);}
+    .card_animation li:nth-child(2) { background-image:url(./까페24/벨벳-헤어-곱창밴드_0004_主图Main-05.png);}
+    .card_animation li:nth-child(3) { background-image:url(./까페24/슬림-메탈-일자-자동-헤어핀_0001_SKU-02-02-one-silver-clip.png);}
+    .card_animation li:nth-child(4) { background-image:url(./까페24/진주헤어핀_0000_SKU-09-C8.png);} 
+  </style>
+</body>
+</html>
