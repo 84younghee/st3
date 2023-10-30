@@ -1,0 +1,16 @@
+/*bx 슬라이드 화살표  변경*/
+.xans-smart-banner-admin-PC00004 .smart-banner-bx-wrapper .bx-controls-direction a {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px 100px;
+  transform: translateY(-50%) 
+}
+.xans-smart-banner-admin-PC00004 .smart-banner-bx-wrapper .bx-prev{
+  background-image: url(https://styleadorn.cafe24.com/web/myfolder/main/left-chevron.png);}
+.xans-smart-banner-admin-PC00004 .smart-banner-bx-wrapper .bx-next{
+  background-image: url(https://styleadorn.cafe24.com/web/myfolder/main/right-chevron.png);}
+
+/* bx 슬라이드 화살표 변경 끝 */
+
