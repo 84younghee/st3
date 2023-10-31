@@ -1,0 +1,9 @@
+/* 색상옵션 테두리 둥글게 */
+
+.ec-base-product .spec .chips{
+ /* width: 20PX; 
+ height: 4PX;
+ */
+  height: 6PX;
+  border-radius: 6PX;
+}
