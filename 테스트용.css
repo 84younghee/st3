@@ -23,3 +23,10 @@ font-size: 2em;
   background-color: #ffece5;
   color: #ffc1a8;
 }
+#main .board.xans-board-listpackage-4 .galleryList .li .imgLink .img{
+  max-height:none ;
+  object-fit: cover;
+  object-position: center;}
+ 
+.my-banner.my-board .my-banner-container.col2{
+gap: 20px;}
