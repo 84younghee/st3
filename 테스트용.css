@@ -1,0 +1,25 @@
+/* 상세페이지 구매버튼 */
+.action_button [class^='btnSubmit'],
+.action_button  a[class^='btnSubmit']{
+background-color: #6cf;
+color: #01f;
+}
+.action_button [class^='btnSubmit']:hover,
+.action_button  a[class^='btnSubmit']:hover{
+background-color:#01f;
+color:#6cf;
+}
+/* 오우이 상세페이지 구매버튼 */
+.theme03 .xans-product-action .action_button .sub_sold, .theme03 [class^='btnSubmit'], 
+.theme03 a[class^='btnSubmit']{
+  background-color: #ffc1a8;
+  color:#ffece5 ;
+  font-family: 'Hahmlet', serif;
+font-weight: 800;
+font-size: 2em;
+}
+.theme03 .xans-product-action .action_button .sub_sold, .theme03 [class^='btnSubmit']:hover, 
+.theme03 a[class^='btnSubmit']:hover{
+  background-color: #ffece5;
+  color: #ffc1a8;
+}
