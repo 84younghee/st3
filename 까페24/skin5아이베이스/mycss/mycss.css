@@ -57,3 +57,11 @@
   
 }
 /* .my-banner 종료 */
+/*소비자가 할인율 표시*/
+.ec-base-product .spec > li .salePrice{
+  margin-left:1em;
+  color:#f00;
+ 
+
+}
+/*소비자가 할인율 표시 끝*/
