@@ -41,7 +41,7 @@ EC$(function($) {
 
       if (iCustomPrice > 0 && iPrice > 0 && iPrice != iCustomPrice) {
         if (sDisplayAmount == 'p') {
-          sSaleText = (((iCustomPrice - iPrice) / iCustomPrice) * 100).toFixed(iOfftoFixed) + '%';
+          sSaleText = (((iCustomPrice - iPrice) / iCustomPrice) * 100).toFixed(iOfftoFixed) + '%▼';
         } else if (sDisplayAmount == 'w') {
           sSaleText = parseInt(iCustomPrice - iPrice).toString().replace(regexp, ',') + '원 OFF';
         }
